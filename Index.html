@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .Pl {
+            width: 87px;
+            height: 7px;
+            text-align: right;
+            margin-right: 13px;
+        }
+
+        .bar-container {
+            width: 300px;
+            height: 7px;
+            border-radius: 5px;
+            position: relative;
+            margin-top: 4px;
+        }
+
+        .bar-100 {
+            width: 100%;
+            height: 100%;            
+            background: linear-gradient(to right, #faf3dd, #ffa69e);
+        }
+        .bar-value {
+            height: 100%;
+            background-color: #5e6472;
+            position: absolute;
+            top: 0;
+            right: 0;
+
+        }
+
+        .graph-container {
+            display: flex;
+            margin: 7px;
+        }
+
+        .skills-container {
+            color:#5e6472;
+            background-color: #aed9e0;
+            margin: 20px;
+            padding: 7px;
+            width: 475px;
+            border: 2px solid #5e6472;
+            border-radius: 7px;
+
+        }
+
+        .skill-title {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="skills-container">
+        <div class="skill-title">
+            <h3>Skills</h3>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">JAVA</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 89%;"></div>
+            </div>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">Python</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 67%;"></div>
+            </div>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">SQL</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 93%;"></div>
+            </div>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">HTML</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 77%;"></div>
+            </div>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">CSS</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 73%;"></div>
+            </div>
+        </div>
+        <div class="graph-container">
+            <div class="Pl">JavaScript</div>
+            <div class="bar-container">
+                <div class="bar-100"></div>
+                <div class="bar-value" style="width: 7%;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
